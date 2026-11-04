@@ -1,0 +1,34 @@
+# Entorno, cachés y editores
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.py[cod]
+.vs/
+.vscode/
+.idea/
+
+# Datos y configuración privados; la aplicación crea data/ al iniciar
+/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Informe de la revisión financiera personal previa
+/scripts/expense_review.py
+
+# Generados locales
+*.log
+/build/
+/dist/
+/AGENTS.md

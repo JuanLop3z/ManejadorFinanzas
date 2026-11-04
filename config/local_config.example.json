@@ -1,0 +1,7 @@
+{
+  "seed_examples": [
+    ["Fondo de emergencia", "goal", "1500000", "0"],
+    ["Crédito de ejemplo", "debt", "2400000", "400000"]
+  ],
+  "own_transfer_pattern": "a Usuario de ejemplo|@ejemplo"
+}
